@@ -1,6 +1,6 @@
 function getCount(str) {
-  let regex = /[aeiou]/g;
-  return str.match(regex).length
+  let regex = /[aeiou]/gi;
+  return (str.match(regex)||[]).length
 }
 
 module.exports = getCount;

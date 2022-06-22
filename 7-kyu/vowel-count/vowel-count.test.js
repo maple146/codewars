@@ -11,3 +11,7 @@ test("should return 4 for 'pear tree'", () => {
 test("should return 13 for 'o a kak ushakov lil vo kashu kakao'", () => {
   expect(getCount("o a kak ushakov lil vo kashu kakao")).toBe(13);
 });
+
+test("should return 0 for 'my pyx'", () => {
+  expect(getCount("my pyx")).toBe(0);
+});
